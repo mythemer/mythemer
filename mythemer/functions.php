@@ -23,7 +23,8 @@ define( 'MYTHEMER_VERSION', wp_get_theme()->get( 'Version' ) );
  * @return void
  */
 function mythemer_setup() {
-	add_editor_style( './assets/css/style-shared.min.css' );
+	
+	add_editor_style( './assets/css/editor-styles.css' );
 
 	/*
 	 * Load additional block styles.
